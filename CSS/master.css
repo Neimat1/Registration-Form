@@ -5,6 +5,8 @@
 body{
     overflow: hidden;
     background-image:linear-gradient(to bottom,#af94d5,#f4bee9 );
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 .layout{
     background-color: black;
