@@ -1,0 +1,89 @@
+*{
+    
+    font-family:cursive;
+}
+body{
+    overflow: hidden;
+    background-image:linear-gradient(to bottom,#af94d5,#f4bee9 );
+}
+.layout{
+    background-color: black;
+    width: 55%;
+    height: 50%;
+    margin:5% auto ;
+    border-radius: 15px ;
+} 
+.right-item{
+    float:right;
+    width: 40%;
+    height: 90%;
+    margin: 5%;
+    
+
+}
+.layout .left-item img{
+    display: block;
+    float: left;
+    width: 50%;
+    height: 50%;
+    /*top-left top-right bottom-right bottom-left  */
+    border-radius: 15px 0 0 15px  ;
+}
+.clearFix{
+    clear: both;
+}
+form h1,
+button{
+    color: white;
+    font-weight: lighter;
+    font-size: 24px;
+    margin: 5%;
+}
+form input,
+    select{
+        display: block;
+        color: gray;
+        width: 70%;
+        font-weight: bold;
+        font-size: 15px;
+        margin: 6%;
+        padding: 5% 0 2%;
+        border: none;
+        border-bottom:solid 0.5px rgba(138, 138, 138, 0.459) ;
+        background-color:black ;
+        
+}
+option{
+    display:block;
+    background-color: white;
+    padding: 5%;
+}
+input[type="date"]::placeholder{
+    visibility:visible;
+   
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+    cursor: pointer;
+}
+form input:focus,
+    select:focus{
+        border-bottom:solid 0.5px rgba(138, 138, 138, 0.459) ;
+        outline: none;
+        
+}
+form input:active::after,
+    select:active::after{
+        marks: white;
+        
+}
+button{
+    background-color: #57b846;
+    width: 35%;
+    padding: 3%;
+    border-radius:15px;
+    outline: none;
+    border: none 0;
+    font-size: 18px;
+}
