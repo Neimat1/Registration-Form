@@ -5,7 +5,8 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="CSS/master.css"/>
+        <link rel="stylesheet" href="css/all.min.css">
+        <link rel="stylesheet" href="css/master.css"/>
     </head>
     <body>
         <div class="layout">
@@ -16,7 +17,10 @@
                 <form action="">
                     <h1 >Registration Info</h1>
                     <input  type="text" name="name" placeholder="Name"/>
-                    <input  type="text" name="birthdate" placeholder="Birthdate" onfocus="(this.type='date')">
+                    <div class="birthdate">
+                        <input  type="text" name="birthdate" placeholder="Birthdate" onfocus="(this.type='date')">
+                        <i class="zmdi zmdi-calendar-note input-icon js-btn-calendar"></i>
+                    </div>
                     <select class="item-form-width" name="gender" >
                         <option value="gender" disabled selected >Gender</option>
                         <option value="male">Male</option>
