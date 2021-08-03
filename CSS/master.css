@@ -1,12 +1,15 @@
 *{
     
-    font-family:cursive;
+    font-family: 'Poppins', sans-serif;
 }
 body{
     overflow: hidden;
     background-image:linear-gradient(to bottom,#af94d5,#f4bee9 );
     background-repeat: no-repeat;
     background-attachment: fixed;
+}
+h1{
+    font-size: 24px;
 }
 .layout{
     background-color: black;
@@ -83,8 +86,8 @@ form input:active::after,
 button{
     background-color: #57b846;
     width: 35%;
-    padding: 3%;
-    border-radius:15px;
+    padding: 2%;
+    border-radius:20px;
     outline: none;
     border: none 0;
     font-size: 18px;
