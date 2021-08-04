@@ -1,15 +1,17 @@
 *{
     
     font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
 }
 body{
-    overflow: hidden;
+    overflow-x: hidden;
     background-image:linear-gradient(to bottom,#af94d5,#f4bee9 );
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
 h1{
     font-size: 24px;
+    padding: 5px;;
 }
 .layout{
     background-color: black;
@@ -47,9 +49,8 @@ button{
 form input,
     select{
         display: block;
-        color: gray;
+        color:  rgb(206, 202, 202);
         width: 70%;
-        font-weight: bold;
         font-size: 15px;
         margin: 6%;
         padding: 5% 0 2%;
@@ -58,7 +59,12 @@ form input,
         background-color:black ;
         
 }
+input::placeholder{
+    color: rgb(206, 202, 202);
+    /* font-size: 14px; */
+}
 option{
+    color: gray;
     display:block;
     background-color: white;
     padding: 5%;

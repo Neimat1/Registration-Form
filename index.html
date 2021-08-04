@@ -4,38 +4,38 @@
         <title>Registration Form</title>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="css/all.min.css">
         <link rel="stylesheet" href="css/master.css"/>
+        <link rel="stylesheet" href="css/responsive.css">
     </head>
     <body>
         <div class="layout">
-            <div class="left-item">
+            <div class="float-left left-item ">
                 <img src="images/image1.jpg" alt="">
             </div>
-            <div class="right-item">
+
+            <div class="float-right right-item ">
                 <form action="">
                     <h1 >Registration Info</h1>
-                    <input  type="text" name="name" placeholder="Name"/>
-                    <div class="birthdate">
-                        <input  type="text" name="birthdate" placeholder="Birthdate" onfocus="(this.type='date')">
-                        <i class="zmdi zmdi-calendar-note input-icon js-btn-calendar"></i>
-                    </div>
+                    <input class="name" type="text" name="name" placeholder="Name"/>
+                    <input  type="text" name="birthdate" placeholder="Birthdate" onfocus="(this.type='date')">
                     <select class="item-form-width" name="gender" >
                         <option value="gender" disabled selected >Gender</option>
                         <option value="male">Male</option>
                         <option value="female">Female</option>
                         <option value="other">Other</option>
                     </select>
-                    <input  type="email" name="uEmail" placeholder="Email"/>
-                    <input type="tel" name="phone" placeholder="Phone"/>
+                    <input class="email" type="email" name="uEmail" placeholder="Email"/>
+                    <input class="phone"  type="tel" name="phone" placeholder="Phone"/>
                     <button type="submit">Submit</button>
                 </form>
             </div>
+
             <div class="clearFix"></div>
             
         </div>
-        <div class="clearFix"></div>
+        
         
         
     </body>
