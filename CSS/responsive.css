@@ -65,7 +65,7 @@
     .layout{
         margin-top:20%;
         padding-top: 50px;
-        width: 100%;
+        width: 80%;
     } 
     .left-item{
         display: none;
@@ -95,7 +95,7 @@
     .layout{
         margin-top:20%;
         padding-top: 50px;
-        width: 100%;
+        width: 80%;
     } 
     .left-item{
         display: none;
@@ -113,12 +113,12 @@
 @media screen and (min-width: 992px ) and (max-width:1200px) {
 
     .layout{
-        width: 80%;
+        width: 70%;
     } 
     
 }
 @media screen and (min-width: 1200px ) and (max-width:1400px) {
     .layout{
-        width: 80%;
+        width: 70%;
     } 
 }
